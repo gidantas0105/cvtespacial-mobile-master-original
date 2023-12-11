@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CVT-Espacial",
+    "slug": "cvt-mobile",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cvtespacial.cvtespacialapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.cvtespacial.cvtespacialapp",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCtc2ve6eDhI4Sx5F_IxGPO69GEh2eDw6g"
+        }
+      }
+    }
+  }
+}

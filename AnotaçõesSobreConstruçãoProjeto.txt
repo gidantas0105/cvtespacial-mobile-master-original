@@ -1,0 +1,22 @@
+npm install -g expo-cli
+
+expo init cvt-mobile
+
+blank
+
+cd cvt-mobile
+
+npm start
+
+npm install @react-navigation/native
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+Inserir import 'react-native-gesture-handler'; na primeira linha do app.json
+
+npm install @react-navigation/stack
+
+
+
+
+npm install axios
